@@ -16,7 +16,6 @@ public class B1546_평균 {
                 max = scores[i];
             }
         }
-
         double sum = 0;
         double newScore;
 
