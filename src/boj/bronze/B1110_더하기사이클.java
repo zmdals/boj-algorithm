@@ -2,7 +2,7 @@ package boj.bronze;
 
 import java.util.Scanner;
 
-public class B110_더하기사이클 {
+public class B1110_더하기사이클 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         //정수 n = 0보다 크거나 같고, 99보다 작거나 같은 정수
