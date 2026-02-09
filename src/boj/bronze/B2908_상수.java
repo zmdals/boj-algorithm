@@ -20,7 +20,7 @@ public class B2908_상수 {
     }
 
     public static int reverseNum(int num){
-        int huns = (num / 100) % 100; //100의자리
+        int huns = (num / 100) % 10; //100의자리 or just (num / 100)
         int tens = (num / 10) % 10; //10의자리
         int ones = num % 10; //1의자리
         return (ones*100) + (tens*10) + huns;
